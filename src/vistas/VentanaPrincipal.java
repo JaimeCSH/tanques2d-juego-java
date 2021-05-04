@@ -1,6 +1,6 @@
 package vistas;
 
-import java.awt.Image;
+import java.awt.*;
 
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
@@ -12,7 +12,6 @@ import modelos.JugadorVo;
 import recursos.Sonidos;
 
 import javax.swing.JLabel;
-import java.awt.Color;
 import javax.swing.JButton;
 import javax.swing.JDialog;
 
@@ -22,22 +21,24 @@ import java.awt.event.ActionEvent;
 public class VentanaPrincipal extends JFrame {
 
 	private JPanel contentPane;
-	private VentanaDificultad escogerNivel;
+	private DialogoDificultad escogerNivel;
 
 	public VentanaPrincipal(Sonidos sonidos) {
+		setResizable(false);
 		sonidos.reproducirIntro();
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setSize(451, 330);
+		setSize(600, 330);
 		setLocationRelativeTo(null);
 		contentPane = new JPanel();
 		contentPane.setBackground(Color.BLACK);
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
+		setIconImage(Toolkit.getDefaultToolkit().getImage(DialogoDificultad.class.getResource("/img/aguila.png")));
 
 		JLabel lblTitulo = new JLabel();
-		lblTitulo.setBounds(62, 11, 319, 83);
-		ImageIcon imgenOrigin = new ImageIcon(VentanaDificultad.class.getResource("/img/logo1.png"));
+		lblTitulo.setBounds(83, 11, 434, 83);
+		ImageIcon imgenOrigin = new ImageIcon(DialogoDificultad.class.getResource("/img/logo1.png"));
 		ImageIcon imagenReEscalada = new ImageIcon(
 				imgenOrigin.getImage().getScaledInstance(434, 81, Image.SCALE_DEFAULT));
 		lblTitulo.setIcon(imagenReEscalada);
@@ -53,15 +54,16 @@ public class VentanaPrincipal extends JFrame {
 				nj.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
 				nj.setVisible(true);
 				if (nj.getAceptar() == 1) {
-					dispose();
+
 					String usuario=nj.getNombreUsuario();
-					escogerNivel = new VentanaDificultad(sonidos,usuario,1);
+					escogerNivel = new DialogoDificultad(sonidos,usuario,1,VentanaPrincipal.this, true);
 					escogerNivel.setVisible(true);
+					dispose();
 				}
 			}
 		});
 		btnNuevoPartida.setBackground(Color.YELLOW);
-		btnNuevoPartida.setBounds(138, 115, 150, 23);
+		btnNuevoPartida.setBounds(225, 115, 150, 23);
 		contentPane.add(btnNuevoPartida);
 
 		JButton btnCargarPartida = new JButton("Cargar Partida");
@@ -92,7 +94,7 @@ public class VentanaPrincipal extends JFrame {
 					
 				}else {
 					String usuario=jugador.getNombre();
-					escogerNivel = new VentanaDificultad(sonidos,usuario,2);
+					escogerNivel = new DialogoDificultad(sonidos,usuario,2, VentanaPrincipal.this, true);
 					escogerNivel.setVisible(true);
 				}
 				dispose();
@@ -100,43 +102,43 @@ public class VentanaPrincipal extends JFrame {
 			}
 		});
 		btnCargarPartida.setBackground(Color.YELLOW);
-		btnCargarPartida.setBounds(138, 149, 150, 23);
+		btnCargarPartida.setBounds(225, 149, 150, 23);
 		contentPane.add(btnCargarPartida);
 
 		JButton btnRanking = new JButton("Ranking");
 		btnRanking.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				Ranking r=new Ranking(VentanaPrincipal.this, true);
+				DialogoRanking r=new DialogoRanking(VentanaPrincipal.this, true);
 				r.setVisible(true);
 			}
 		});
 		btnRanking.setForeground(Color.BLUE);
 		btnRanking.setBackground(Color.YELLOW);
-		btnRanking.setBounds(138, 183, 150, 23);
+		btnRanking.setBounds(225, 183, 150, 23);
 		contentPane.add(btnRanking);
 
 		JButton btnInstrucciones = new JButton("Instrucciones");
 		btnInstrucciones.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				VentanaInstrucciones vI=new VentanaInstrucciones();
+				DialogoInstrucciones vI=new DialogoInstrucciones(VentanaPrincipal.this, true);
 				vI.setVisible(true);
 			}
 		});
 		btnInstrucciones.setForeground(Color.BLUE);
 		btnInstrucciones.setBackground(Color.YELLOW);
-		btnInstrucciones.setBounds(138, 217, 150, 23);
+		btnInstrucciones.setBounds(225, 217, 150, 23);
 		contentPane.add(btnInstrucciones);
 
 		JButton btnAcerca = new JButton("Acerca de");
 		btnAcerca.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				DialogoAcercaDe dc=new DialogoAcercaDe();
+				DialogoAcercaDe dc=new DialogoAcercaDe(VentanaPrincipal.this, true);
 				dc.setVisible(true);
 			}
 		});
 		btnAcerca.setForeground(Color.BLUE);
 		btnAcerca.setBackground(Color.YELLOW);
-		btnAcerca.setBounds(138, 251, 150, 23);
+		btnAcerca.setBounds(225, 251, 150, 23);
 		contentPane.add(btnAcerca);
 	}
 

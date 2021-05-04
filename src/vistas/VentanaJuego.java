@@ -22,6 +22,7 @@ public class VentanaJuego extends JFrame {
 
 	public VentanaJuego(int numTanques, int bonificacionDeNivel, Sonidos sonidos,
 			JugadorDao miJugador,JugadorVo usuario) {
+
 		addWindowListener(new WindowAdapter() {
 			@Override
 			public void windowClosing(WindowEvent arg0) {
@@ -35,10 +36,11 @@ public class VentanaJuego extends JFrame {
 		this.numTanques = numTanques;
 		this.bonificacionDeNivel = bonificacionDeNivel;
 		this.sonidos = sonidos;
+		this.usuario = usuario;
 
-		setIconImage(Toolkit.getDefaultToolkit().getImage(VentanaDificultad.class.getResource("/img/aguila.png")));
+		setIconImage(Toolkit.getDefaultToolkit().getImage(DialogoDificultad.class.getResource("/img/aguila.png")));
 
-		miBoard = new Board(numTanques, bonificacionDeNivel, sonidos,  this, this.miJugador,usuario);
+		miBoard = new Board(this.numTanques, this.bonificacionDeNivel, this.sonidos,  this, this.miJugador,this.usuario);
 		getContentPane().add(miBoard);
 		setSize(890, 580);
 		setResizable(false);

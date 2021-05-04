@@ -1,0 +1,12 @@
+
+Z
+java:S2147"DCombine this catch with the one at line 22, which has the same body.(”ı¾
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+Z
+java:S2147"DCombine this catch with the one at line 22, which has the same body.(ıàÑÎ
+D
+java:S2115")Add password protection to this database.(Äğ…Çüÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+H
+java:S4925"-Remove this "Class.forName()", it is useless.(¹µÖÁüÿÿÿÿ

@@ -1,0 +1,21 @@
+
+g
+java:S20953"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(Ô¬†œøÿÿÿÿ
+M
+java:S1135"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+
+java:S1130/"xRemove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.(¯®²
+M
+java:S1854|"7Remove this useless assignment to local variable "num".(õš»¶
+M
+java:S1135"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+?
+java:S1659")Declare "posConcreto" on a separate line.(“ŞÓĞ
+<
+java:S1659"&Declare "posPasto" on a separate line.(“ŞÓĞ
+Z
+java:S2147"DCombine this catch with the one at line 22, which has the same body.(ï­£Ä
+>
+java:S1481|"(Remove this unused "num" local variable.(õš»¶
+;
+java:S1659"%Declare "posAgua" on a separate line.(“ŞÓĞ

@@ -1,0 +1,34 @@
+
+T	java:S106"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+‹
+java:S1319@"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ğ¯ºÿÿÿÿÿ
+]
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(¸Ã¤@
+S	java:S106"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ
+H
+java:S1135T"2Complete the task associated to this TODO comment.(‡ñÅ¼
+O	java:S106˜"9Replace this use of System.out or System.err by a logger.(‚¤ª
+‹
+java:S1319$"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(àÀ´²ûÿÿÿÿ
+H
+java:S1135:"2Complete the task associated to this TODO comment.(‡ñÅ¼
+j
+java:S2095)"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¿ò‚÷úÿÿÿÿ
+o
+java:S2293A"YReplace the type specification in this constructor call with the diamond operator ("<>").(™Ï¯Î
+I
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ
+\
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(¸Ã¤@
+e
+java:S2095E"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(üóŞ
+j
+java:S2095`"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Õğàíüÿÿÿÿ
+j
+java:S2095v"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Î‡®òøÿÿÿÿ
+o
+java:S2293%"YReplace the type specification in this constructor call with the diamond operator ("<>").(™Ï¯Î
+R	java:S125ˆ"<This block of commented-out lines of code should be removed.(†ö“Ş
+S	java:S106l"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+T	java:S106—"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ
+N	java:S106 "9Replace this use of System.out or System.err by a logger.(‚¤ª

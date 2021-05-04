@@ -2,7 +2,11 @@ package sprite;
 
 public class Poder extends Sprite {
 
-	// El tipo de poder, de momento 1 para ganar una vida extra;
+	// El tipos de poder
+	private final int VIDA_EXTRA=1;
+	private final int BOMBA_DESTRUCTORA=2;
+
+	// El tipo de poder, ej 1 para ganar una vida extra;
 	private int tipo;
 
 	public Poder(int x, int y, int tipo) {
@@ -12,9 +16,9 @@ public class Poder extends Sprite {
 	}
 
 	private void initPoder() {
-		if (tipo == 1) {
+		if (tipo == VIDA_EXTRA) {
 			loadImage("src/img/TankVida.png");
-		} else if (tipo == 2) {
+		} else if (tipo == BOMBA_DESTRUCTORA) {
 			loadImage("src/img/bomba.png");
 		}
 		getImageDimensions();

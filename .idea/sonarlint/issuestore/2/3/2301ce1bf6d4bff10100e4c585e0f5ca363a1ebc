@@ -1,0 +1,12 @@
+
+V	java:S110"<This class has 6 parents which is greater than 5 authorized.(¶âíèıÿÿÿÿ
+s	java:S117Š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãê®İıÿÿÿÿ8È½ùÀ“/
+i
+java:S3252"LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(Òœ Ğ8ì†½“/
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª—ÏÀ8È½ùÀ“/
+r	java:S117p"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ“ı¶ÿÿÿÿÿ8²ÎßÀ“/
+m	java:S117z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒÄ¼Æ8²ÎßÀ“/
+e
+java:S1192F"JDefine a constant instead of duplicating this literal "SansSerif" 4 times.(Á…ˆ­ûÿÿÿÿ
+>
+java:S16044"(Make this anonymous inner class a lambda(ıñ©ì

@@ -1,0 +1,46 @@
+
+
+java:S1319"tThe type of the "ladrillos" object should be an interface such as "List" rather than the implementation "ArrayList".(ø£øâùÿÿÿÿ
+Š
+java:S1319"oThe type of the "agua" object should be an interface such as "List" rather than the implementation "ArrayList".(ø£øâùÿÿÿÿ
+Ž
+java:S1319"sThe type of the "concreto" object should be an interface such as "List" rather than the implementation "ArrayList".(‚±«ùÿÿÿÿ
+‹
+java:S1319C"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ð»Ÿ¶ûÿÿÿÿ
+
+java:S1319þ"tThe type of the "ladrillos" object should be an interface such as "List" rather than the implementation "ArrayList".(§º©úÿÿÿÿ
+>
+java:S2189ô""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ
+D
+java:S1659")Declare "rutaimgDown" on a separate line.(¬áþŸúÿÿÿÿ
+A
+java:S1659"&Declare "rutaLeft" on a separate line.(¬áþŸúÿÿÿÿ
+B
+java:S1659"'Declare "rutaRight" on a separate line.(¬áþŸúÿÿÿÿ
+k	java:S116	"VRename this field "BOARD_WIDTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹À–ý
+q	java:S116
+"WRename this field "BOARD_HEIGTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ËÙ®ÿÿÿÿÿ
+7
+java:S1170	"!Make this final field static too.(‹À–ý
+<
+java:S1170
+"!Make this final field static too.(¼ËÙ®ÿÿÿÿÿ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Æ•£›þÿÿÿÿ
+<
+java:S1172R"&Remove these unused method parameters.(¾ýšâ
+H
+java:S1135k"2Complete the task associated to this TODO comment.(‡ñÅ¼
+Œ
+java:S1130q"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(„šŠt
+
+java:S1130{"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(•€ 
+Ž
+java:S1130„"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(÷â»û
+“
+java:S1130"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(­Éðêøÿÿÿÿ
+h
+java:S3776–"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(õ…‚[
+]
+java:S2142ø"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+R	java:S125÷"<This block of commented-out lines of code should be removed.(¯·Ä±

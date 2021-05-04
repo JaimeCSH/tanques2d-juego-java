@@ -1,0 +1,17 @@
+
+‹
+java:S1319{"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ğ»Ÿ¶ûÿÿÿÿ
+V	java:S125B"<This block of commented-out lines of code should be removed.(â„µ›şÿÿÿÿ
+V	java:S125@"<This block of commented-out lines of code should be removed.(âıßùÿÿÿÿ
+7	java:S131E""Add a default case to this switch.(ç£®
+t
+java:S2293)"YReplace the type specification in this constructor call with the diamond operator ("<>").(Æ•£›şÿÿÿÿ
+>	java:S108t")Either remove or fill this block of code.(”ı¾
+‰
+java:S1319"sThe type of the "concreto" object should be an interface such as "List" rather than the implementation "ArrayList".(¥¢Ç
+…
+java:S1319"oThe type of the "agua" object should be an interface such as "List" rather than the implementation "ArrayList".(¥¢Ç
+<
+java:S1172\"&Remove these unused method parameters.(¾ıšâ
+Š
+java:S1319"tThe type of the "ladrillos" object should be an interface such as "List" rather than the implementation "ArrayList".(Áíûß

@@ -1,0 +1,98 @@
+
+<
+java:S11701"!Make this final field static too.(‘Èıßÿÿÿÿÿ
+T
+java:S1117¢"8Rename "tipo" which hides the field declared at line 76.(Ê‚şÈùÿÿÿÿ
+h	java:S116-"SRename this field "ICRAFT_X" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á¿õº
+I
+java:S1135­"2Complete the task associated to this TODO comment.(‡ñÅ¼
+O	java:S106ß"9Replace this use of System.out or System.err by a logger.(À›¦È
+m	java:S116."SRename this field "ICRAFT_Y" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éî½øÿÿÿÿ
+g	java:S116/"RRename this field "B_WIDTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²³Ñ
+D
+java:S1905¸"(Remove this unnecessary cast to "Misil".(¢êÀ–ûÿÿÿÿ
+D
+java:S1948>")Make "tankPro" transient or serializable.(ü–ßøÿÿÿÿ
+v
+java:S14505"[Remove the "btnContinuar" field and declare it as a local variable in the relevant methods.(¬áƒ¶ÿÿÿÿÿ
+D
+java:S1948[")Make "usuario" transient or serializable.(ÁÜ€¼üÿÿÿÿ
+T
+java:S4838·"6Change "Object" to the type handled by the Collection.(ô¼áô8•¨‡£“/
+h	java:S1160"SRename this field "B_HEIGHT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷éê¢
+H
+java:S1874…",Remove this use of "stop"; it is deprecated.(Şûüãüÿÿÿÿ
+B
+java:S10686",Remove this unused "btnSalir" private field.(µ¼û˜
+<
+java:S1170."!Make this final field static too.(éî½øÿÿÿÿ
+@
+java:S1948E"*Make "miAguila" transient or serializable.(¢ Âœ
+H
+java:S1874ë",Remove this use of "stop"; it is deprecated.(Şûüãüÿÿÿÿ
+V
+java:S1117"8Rename "hilo" which hides the field declared at line 85.(–¸Ñı8•¨‡£“/
+7
+java:S1170-"!Make this final field static too.(Á¿õº
+E
+java:S1948H"*Make "hiloJefe" transient or serializable.(ª©šŸşÿÿÿÿ
+D
+java:S1948Y")Make "sonidos" transient or serializable.(ÕàÃøÿÿÿÿ
+k
+java:S1192‘"MDefine a constant instead of duplicating this literal "PRINCIPIANTE" 3 times.(²‚Üû8•¨‡£“/
+D
+java:S1604†"(Make this anonymous inner class a lambda(Óœ› ıÿÿÿÿ
+J
+java:S1874›",Remove this use of "stop"; it is deprecated.(çáÔò8•¨‡£“/
+^	java:S125±"<This block of commented-out lines of code should be removed.(Ü˜şòøÿÿÿÿ8•¨‡£“/
+l	java:S117à"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È·”øşÿÿÿÿ
+@
+java:S1948B"*Make "concreto" transient or serializable.(ğ¸Ğù
+Y
+java:S4838À"6Change "Object" to the type handled by the Collection.(”ô†€üÿÿÿÿ8•¨‡£“/
+i
+java:S3776œ"SRefactor this method to reduce its Cognitive Complexity from 110 to the 15 allowed.(÷©=
+^	java:S125¹"<This block of commented-out lines of code should be removed.(Ü˜şòøÿÿÿÿ8•¨‡£“/
+F
+java:S1948Z"+Make "miJugador" transient or serializable.(‘ïÇüÿÿÿÿ
+@
+java:S1948A"+Make "ladrillos" transient or serializable.(êå¸
+L
+java:S1948?"1Make "tanquesEnemigos" transient or serializable.(¸®”æøÿÿÿÿ
+7
+java:S1170/"!Make this final field static too.(²³Ñ
+j	java:S1162"PRename this field "DELAY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÂŒÔúÿÿÿÿ
+7
+java:S11700"!Make this final field static too.(÷éê¢
+J
+java:S1948h"(Make "miMapa" transient or serializable.(… °¢üÿÿÿÿ8•¨‡£“/
+o	java:S1161"URename this field "MAPA_FINAL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Èıßÿÿÿÿÿ
+<
+java:S1948U"&Make "hilo" transient or serializable.(îÕ©ƒ
+D
+java:S1604¬"(Make this anonymous inner class a lambda(Óœ› ıÿÿÿÿ
+h
+java:S3776Ê"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(èŞÕ8
+D
+java:S1948F")Make "unPoder" transient or serializable.(ŠíâÓúÿÿÿÿ
+F
+java:S1948:"+Make "hiloBonus" transient or serializable.(æ‘óæøÿÿÿÿ
+i
+java:S1450U"SRemove the "hilo" field and declare it as a local variable in the relevant methods.(îÕ©ƒ
+S
+java:S4838¯"6Change "Object" to the type handled by the Collection.(™Ûïu8•¨‡£“/
+^	java:S125Â"<This block of commented-out lines of code should be removed.(Ü˜şòøÿÿÿÿ8•¨‡£“/
+B
+java:S1948D"'Make "pasto" transient or serializable.(çÏ›–üÿÿÿÿ
+u
+java:S3776‹"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(™ÉÅ¦ÿÿÿÿÿ8•¨‡£“/
+;
+java:S1948C"&Make "agua" transient or serializable.(—øí<
+m
+java:S1192Ï"ODefine a constant instead of duplicating this literal "Century Gothic" 5 times.(ÆÎïù8•¨‡£“/
+<
+java:S11702"!Make this final field static too.(ÆÂŒÔúÿÿÿÿ
+E
+java:S1172Ê"/Remove this unused method parameter "cantidad".(èŞÕ8
+A
+java:S1948G"&Make "boss" transient or serializable.(À‘ûÿÿÿÿ

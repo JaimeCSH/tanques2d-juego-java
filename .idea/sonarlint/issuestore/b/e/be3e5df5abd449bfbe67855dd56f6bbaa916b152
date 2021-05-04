@@ -1,0 +1,20 @@
+
+H
+java:S11994"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+H
+java:S11999"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+U
+java:S1161d":Add the "@Override" annotation above this method signature(ÍŸÏ†ùÿÿÿÿ
+I
+java:S1948"".Make "listPuntajes" transient or serializable.(þúå¦þÿÿÿÿ
+Q	java:S110"<This class has 6 parents which is greater than 5 authorized.(ÑÑÓ
+S
+java:S1197{"8Move the array designator from the variable to the type.(¡þÞ£ûÿÿÿÿ
+n
+java:S1450#"XRemove the "modelList" field and declare it as a local variable in the relevant methods.(ÀÚ¯Ù
+>
+java:S1604H"(Make this anonymous inner class a lambda(ýñ©ì
+i
+java:S3252+"LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(Òœ Ð8ž©Ÿ½“/
+I
+java:S1948!".Make "miJugadorDao" transient or serializable.(ø—˜¤úÿÿÿÿ

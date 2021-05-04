@@ -31,6 +31,8 @@ public class DialogoNuevoJuego extends JDialog {
 
 	public DialogoNuevoJuego(JFrame parent, boolean modal) {
 		super(parent, modal);
+		setResizable(false);
+		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		setTitle("Nuevo Jugador");
 		setSize(513, 250);
 		setLocationRelativeTo(null);
@@ -49,7 +51,7 @@ public class DialogoNuevoJuego extends JDialog {
 				JLabel lblTitulo = new JLabel();
 				lblTitulo.setHorizontalAlignment(SwingConstants.CENTER);
 				lblTitulo.setBounds(10, 11, 467, 83);
-				ImageIcon imgenOrigin = new ImageIcon(VentanaDificultad.class.getResource("/img/logo1.png"));
+				ImageIcon imgenOrigin = new ImageIcon(DialogoDificultad.class.getResource("/img/logo1.png"));
 				ImageIcon imagenReEscalada = new ImageIcon(
 						imgenOrigin.getImage().getScaledInstance(434, 81, Image.SCALE_DEFAULT));
 				lblTitulo.setIcon(imagenReEscalada);

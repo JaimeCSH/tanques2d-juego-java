@@ -1,0 +1,10 @@
+
+7
+java:S1170"!Make this final field static too.(‹À–ý
+l	java:S116"XRename this field "MISSILE_SPEED" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãØ–
+q	java:S116"WRename this field "BOARD_HEIGTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ËÙ®ÿÿÿÿÿ
+6
+java:S1170"!Make this final field static too.(ãØ–
+k	java:S116"VRename this field "BOARD_WIDTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹À–ý
+<
+java:S1170"!Make this final field static too.(¼ËÙ®ÿÿÿÿÿ

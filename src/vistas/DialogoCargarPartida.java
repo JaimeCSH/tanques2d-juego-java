@@ -16,8 +16,6 @@ import javax.swing.JButton;
 import javax.swing.JDialog;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
 import java.awt.event.ActionEvent;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
@@ -26,8 +24,6 @@ import javax.swing.table.DefaultTableModel;
 import modelos.JugadorDao;
 import modelos.JugadorVo;
 import javax.swing.SwingConstants;
-import javax.swing.border.TitledBorder;
-import javax.swing.border.BevelBorder;
 
 public class DialogoCargarPartida extends JDialog {
 
@@ -45,6 +41,8 @@ public class DialogoCargarPartida extends JDialog {
 
 		miJugadorDao = new JugadorDao();
 		listPartidas = miJugadorDao.getPartidas();
+		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+		setResizable(false);
 		setTitle("Cargar Partida");
 		setSize(524, 415);
 		setLocationRelativeTo(null);
@@ -62,7 +60,7 @@ public class DialogoCargarPartida extends JDialog {
 				JLabel lblTitulo = new JLabel();
 				lblTitulo.setHorizontalAlignment(SwingConstants.CENTER);
 				lblTitulo.setBounds(10, 11, 478, 83);
-				ImageIcon imgenOrigin = new ImageIcon(VentanaDificultad.class.getResource("/img/logo1.png"));
+				ImageIcon imgenOrigin = new ImageIcon(DialogoDificultad.class.getResource("/img/logo1.png"));
 				ImageIcon imagenReEscalada = new ImageIcon(
 						imgenOrigin.getImage().getScaledInstance(434, 81, Image.SCALE_DEFAULT));
 				lblTitulo.setIcon(imagenReEscalada);

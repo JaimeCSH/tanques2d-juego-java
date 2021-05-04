@@ -68,7 +68,6 @@ public class TanqueProtagonista extends Sprite {
 		} else {
 			switch (direccionActual) {
 			case 1:
-
 				y += 1;
 				break;
 			case 2:
@@ -78,7 +77,6 @@ public class TanqueProtagonista extends Sprite {
 				x += 1;
 				break;
 			case 4:
-
 				x += -1;
 				break;
 

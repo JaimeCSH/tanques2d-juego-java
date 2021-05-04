@@ -1,0 +1,18 @@
+
+C
+java:S1604S"(Make this anonymous inner class a lambda(ŞÆİşÿÿÿÿ
+Q
+java:S1128";Remove this unused import 'javax.swing.border.BevelBorder'.(óöèû
+I
+java:S1128"3Remove this unused import 'javax.swing.JScrollBar'.(êº§è
+H
+java:S11991"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+V	java:S110"<This class has 6 parents which is greater than 5 authorized.(Öûû¥ûÿÿÿÿ
+H
+java:S1199+"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+b
+java:S3252""LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(Òœ Ğ
+F
+java:S1128"0Remove this unused import 'java.awt.EventQueue'.(ùÅØæ
+H
+java:S1199:"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ

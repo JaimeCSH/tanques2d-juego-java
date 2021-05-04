@@ -1,0 +1,31 @@
+
+]
+java:S2095‰"GUse try-with-resources or close this "Statement" in a "finally" clause.(¸Ã¤@
+H
+java:S1135S"2Complete the task associated to this TODO comment.(‡ñÅ¼
+o
+java:S2293$"YReplace the type specification in this constructor call with the diamond operator ("<>").(™Ï¯Î
+O	java:S106”"9Replace this use of System.out or System.err by a logger.(‚¤ª
+j
+java:S2095("OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¿ò‚÷úÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ
+H
+java:S11359"2Complete the task associated to this TODO comment.(‡ñÅ¼
+\
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(¸Ã¤@
+T	java:S106€"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+‹
+java:S1319?"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ğ¯ºÿÿÿÿÿ
+o
+java:S2293@"YReplace the type specification in this constructor call with the diamond operator ("<>").(™Ï¯Î
+j
+java:S2095u"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Î‡®òøÿÿÿÿ
+j
+java:S2095_"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Õğàíüÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(‚¤ª
+S	java:S106k"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+T	java:S106“"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ
+‹
+java:S1319#"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(àÀ´²ûÿÿÿÿ
+e
+java:S2095D"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(üóŞ

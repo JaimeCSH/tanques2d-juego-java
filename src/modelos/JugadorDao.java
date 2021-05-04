@@ -5,7 +5,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
-import java.util.HashMap;
 
 import javax.swing.JOptionPane;
 
@@ -132,9 +131,6 @@ public class JugadorDao {
 	}
 
 	public void registrarPuntaje(String nombre,String dificultad, int puntajeFinal) {
-		// INSERT INTO puntajesfinales (idUsuario , puntaje) VALUES ((select id
-		// from usuarios WHERE nombre='Andres'), '20000000');
-
 		Conexion conex = new Conexion();
 
 		try {

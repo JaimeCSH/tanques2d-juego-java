@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="juegoBattleCity:jar">
+    <output-path>$PROJECT_DIR$/classes/artifacts/juegoBattleCity_jar</output-path>
+    <root id="archive" name="juegoBattleCity.jar">
+      <element id="module-output" name="juegoBattleCity" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/mysql-connector-java-5.1.44.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

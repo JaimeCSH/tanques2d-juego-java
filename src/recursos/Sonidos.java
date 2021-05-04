@@ -1,21 +1,17 @@
 package recursos;
 
-import java.io.BufferedInputStream;
 import java.io.File;
-import java.io.InputStream;
-
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
-import javax.sound.sampled.DataLine;
 
 public class Sonidos {
-	private Clip sonidoBomb;
-	private Clip sonidoExplocion;
-	private Clip sonidoIntro;
-	private Clip sonidoDisparo;
-	private Clip sonidoGameOver;
-	private Clip sonidoWin;
+	private final Clip sonidoBomb;
+	private final Clip sonidoExplocion;
+	private final Clip sonidoIntro;
+	private final Clip sonidoDisparo;
+	private final Clip sonidoGameOver;
+	private final Clip sonidoWin;
 
 	public Sonidos() {
 		sonidoBomb=cargarSonido("src/sounds/bomb.wav");
@@ -33,16 +29,10 @@ public class Sonidos {
 
 			AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File(ruta).getAbsoluteFile());
 			clip = AudioSystem.getClip();
-
-			//InputStream is = ClassLoader.class.getResourceAsStream(ruta);
-			//AudioInputStream ais = AudioSystem.getAudioInputStream(new BufferedInputStream(is));
-			//DataLine.Info info = new DataLine.Info(Clip.class, ais.getFormat());
-			//clip = (Clip) AudioSystem.getLine(info);
 			clip.open(audioInputStream);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-
 		return clip;
 	}
 

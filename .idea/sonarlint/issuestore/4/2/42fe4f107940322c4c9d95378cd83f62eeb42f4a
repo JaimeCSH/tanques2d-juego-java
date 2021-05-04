@@ -1,0 +1,24 @@
+
+O
+java:S1197¢"8Move the array designator from the variable to the type.(ùıÅÒ
+Q	java:S110"<This class has 6 parents which is greater than 5 authorized.(´çÇŸ
+i
+java:S3252,"LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(Òœ Ğ8Å¼½“/
+n
+java:S1450%"XRemove the "modelList" field and declare it as a local variable in the relevant methods.(ÀÚ¯Ù
+H
+java:S11996"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+V
+java:S1161‡":Add the "@Override" annotation above this method signature(ÍŸÏ†ùÿÿÿÿ
+>
+java:S1604e"(Make this anonymous inner class a lambda(ıñ©ì
+H
+java:S1199;"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+K
+java:S1948#"5Make "jugadorSeleccionado" transient or serializable.(¡¿ƒì
+I
+java:S1948$".Make "listPartidas" transient or serializable.(¡åÖ™ıÿÿÿÿ
+>
+java:S1604J"(Make this anonymous inner class a lambda(¸ä÷´
+I
+java:S1948"".Make "miJugadorDao" transient or serializable.(ø—˜¤úÿÿÿÿ
